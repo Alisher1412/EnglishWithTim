@@ -1,0 +1,264 @@
+/* core styles */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.blur-line {
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background-color: #de00fc;
+    filter: blur(4px);
+    border-radius: 4px;
+}.blur-purple-line {
+    display: inline-block;
+    margin-right: 5px;
+    width: 80px;
+    height: 4px;
+    background-color: #1f073a;
+    filter: blur(4px);
+    border-radius: 4px;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin-top: 100px;
+    color: rgb(98, 0, 255);
+    font-family: Arial, Helvetica, sans-serif ,serif;
+    margin-bottom: 30px;
+}
+/* main-header styles */
+.main-header {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+    z-index: 10;
+}
+.main-header__brand {
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.main-header__brand img {
+    width: 64px;
+}
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-navigation__item {
+    display: inline-block;
+    padding: 10px;
+    color: #05364d ;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+.main-navigation__item a {
+    color: #05364d ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+.main-navigation__item a:hover {
+    color: rgb(87, 11, 87);
+}
+.main-navigation__item.active a {
+    color: rgb(87, 11, 87);
+}
+
+
+/* main-section */
+.main-section {margin-top: 110px;
+}
+.main-section__item1 {
+    width: 100%;
+    height: 80vh;
+    background-image: url('./teacherm.jpg');
+    border-radius: 1%;
+    background-size: cover;
+    align: bottom left;
+    color: rgb(87, 11, 87);
+    font-size: 30px;
+    font-weight: 700;
+}
+.main-section__item2 {
+    width: 100%;
+    height: 80vh;
+    margin-top: 30px;
+    background-image: url('./main2.jpg');
+    align: center;
+    color: rgb(87, 11, 87);
+    font-size: 30px;
+    font-weight: 700;
+    background-size: cover;
+}
+/* techers section styles */
+.t-section__items {
+    display: flex;
+    padding: 30px;
+    background-image: url('./students.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+.t-section__item {
+    padding: 30px 15px;
+    background-color: #d3cfcb;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+}
+.t-section__item-img {
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.t-section__item-review{
+    letter-spacing: 3.5px;
+    color: rgb(93, 16, 165);
+    line-height: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.t-section__item-name {
+    color: rgb(87, 11, 87);
+    margin-top: 60px;
+    text-align: end;
+}
+/* Student's section styles */
+.s-section__items{
+    display: flex;
+    padding: 70px;
+    background-image: url('./students.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+.s-section__item{
+    padding: 60px 15px;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+}
+.s-section__item-img{
+    margin-right: 10px;
+    border-radius: 15%;
+
+}
+.s-section__item-name{
+    margin-top: 30px;
+    margin-left: 18px;
+    border-radius: 10px;
+    color: rgb(87, 11, 87);
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+.s-section__item-review{
+    padding: 30px 15px;
+    border-radius: 10px;
+    letter-spacing: 3.5px;
+    line-height: 24px;
+    border: 3px solid rgb(235, 205, 235);
+    margin-right: 20px;
+    font-family:serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(128, 45, 128);
+    margin-bottom: 60px;
+
+}
+.s-section__see-more a{
+    text-decoration: none;
+    color: rgb(87, 11, 87);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 15%;
+    color: white;
+    background-color: rgb(124, 63, 122);
+}
+.s-section__see-more a:hover{
+    background-color: rgb(107, 15, 116);
+}
+#ss__r1, #ss__r2{
+    background-color: #d3cfcb;
+}
+/* location section styles */
+.location__items{    
+    display: flex;
+    padding: 70px;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url('./students.jpg');
+}
+.location__item{
+    padding: 30px 20px;
+    font-weight: bold;
+    margin: 10px auto 10px auto;
+    background-color: rgb(221, 221, 221);
+    background-repeat: 400px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.location-item__img{
+    width: 380px;
+    height: 320px;
+}
+.location__position{
+    margin-top: 30px;
+    letter-spacing: 5.5px;
+    color: rgb(87, 11, 87);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+.location__location{
+    margin-bottom: 18px;
+    color: rgb(128, 45, 128);
+    letter-spacing: 7px;
+    font-family: serif;
+    font-size: 24px;
+    line-height: 32px;
+}
+.name{
+    color: rgb(87, 11, 87);
+}
+.location__action{
+    margin-top: 38px;
+}
+.location__action a{
+    text-decoration: none;
+    color: rgb(87, 11, 87);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8%;
+    font-family: serif;
+    color: white;
+    background-color: rgb(124, 63, 122);
+
+}
+.location__action a:hover{
+    background-color: rgb(107, 15, 116);    
+}
+.telegram a{
+    color: #05364d ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}

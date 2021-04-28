@@ -1,0 +1,106 @@
+/* core styles */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.blur-line {
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background-color: #de00fc;
+    filter: blur(4px);
+    border-radius: 4px;
+}
+/* main-header styles */
+.main-header {
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+}
+.main-header__brand {
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.main-header__brand img {
+    width: 64px;
+}
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-navigation__item {
+    display: inline-block;
+    padding: 10px;
+    color: #05364d ;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+.main-navigation__item a {
+    color: #05364d ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+.main-navigation__item a:hover {
+    color: #efb6df;
+}
+.main-navigation__item.active a {
+    color: #efb6df;
+}
+/* Body */
+.main{
+    margin-top: 130px;
+    width: 70vw;
+    height: 70vh;
+    font-size: 30px;
+    position: relative;
+}
+.section-title {
+    font-size: 30px;
+    color: rgb(98, 0, 255);
+    margin-bottom: 40px;
+}
+.telegram{
+    margin-bottom: 50px;
+}
+.telegram a{
+    color: #05364d ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 500;
+}
+.instagram a{
+    color: #05364d ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 500;
+}
+.telegram a:hover,
+.instagram a:hover{
+    color: rgb(87, 11, 87);
+    text-decoration: underline;
+}
+.indention{
+    margin-right: 10px;
+}
