@@ -197,6 +197,9 @@ body {
 .s-section__see-more a:hover{
     background-color: rgb(107, 15, 116);
 }
+.s-section__see-more a:active{
+    background-color: rgb(107, 15, 116);
+}
 #ss__r1, #ss__r2{
     background-color: #d3cfcb;
 }
@@ -257,10 +260,6 @@ body {
 .location__action a:hover{
     background-color: rgb(107, 15, 116);    
 }
-.telegram a{
-    color: #05364d ;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 500;
+.location__action a:active{
+    background-color: rgb(107, 15, 116);    
 }
